@@ -118,8 +118,8 @@ resource "azurerm_virtual_machine" "catapp" {
     disable_password_authentication = false
   }
   tags = {
-    'Billable'    = true
-    'Department'  = "devops"
+    "Billable"    = "true"
+    "Department"  = "devops"
   }
 }
 
